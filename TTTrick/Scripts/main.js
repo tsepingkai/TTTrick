@@ -8,7 +8,8 @@ defineClass('TTTrickView', {
             var animationView = MeteorAnimationView.alloc().init();
 //            var width = self.getWidth() - arc4random() % (self.getWidth() / 2);
 //            var height = arc4random() % (self.getHeight() / 2);
-//            
+//
+            
             animationView.loadView();
             self.addSubview(animationView);
             animationView.start(300);
