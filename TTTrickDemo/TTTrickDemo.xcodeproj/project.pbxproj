@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF6DFE41C1ABE84007360D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DFE31C1ABE84007360D0 /* main.m */; };
+		DAF6DFE71C1ABE84007360D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DFE61C1ABE84007360D0 /* AppDelegate.m */; };
+		DAF6DFEA1C1ABE84007360D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DFE91C1ABE84007360D0 /* ViewController.m */; };
+		DAF6DFED1C1ABE84007360D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF6DFEB1C1ABE84007360D0 /* Main.storyboard */; };
+		DAF6DFEF1C1ABE84007360D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF6DFEE1C1ABE84007360D0 /* Assets.xcassets */; };
+		DAF6DFF21C1ABE84007360D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF6DFF01C1ABE84007360D0 /* LaunchScreen.storyboard */; };
+		DAF6DFFF1C1ABECF007360D0 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6DFFD1C1ABECF007360D0 /* JPEngine.m */; };
+		DAF6E0001C1ABECF007360D0 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = DAF6DFFE1C1ABECF007360D0 /* JSPatch.js */; };
+		DAF6E00B1C1ABFF9007360D0 /* JHKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6E0061C1ABFF9007360D0 /* JHKeyframeAnimation.m */; };
+		DAF6E00C1C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = DAF6E0071C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.c */; };
+		DAF6E00D1C1ABFF9007360D0 /* UIView+JHChainableAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6E00A1C1ABFF9007360D0 /* UIView+JHChainableAnimations.m */; };
+		DAF6E0111C1AC054007360D0 /* TTTrickView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6E0101C1AC054007360D0 /* TTTrickView.m */; };
+		DAF6E0131C1AC334007360D0 /* sample.js in Resources */ = {isa = PBXBuildFile; fileRef = DAF6E0121C1AC334007360D0 /* sample.js */; };
+		DAF6E0161C1AC427007360D0 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = DAF6E0151C1AC427007360D0 /* main.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAF6DFDF1C1ABE84007360D0 /* TTTrickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTrickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF6DFE31C1ABE84007360D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF6DFE51C1ABE84007360D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAF6DFE61C1ABE84007360D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAF6DFE81C1ABE84007360D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF6DFE91C1ABE84007360D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF6DFEC1C1ABE84007360D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF6DFEE1C1ABE84007360D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF6DFF11C1ABE84007360D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF6DFF31C1ABE84007360D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF6DFFC1C1ABECF007360D0 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		DAF6DFFD1C1ABECF007360D0 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		DAF6DFFE1C1ABECF007360D0 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		DAF6E0031C1ABFF9007360D0 /* JHChainableAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChainableAnimations.h; sourceTree = "<group>"; };
+		DAF6E0041C1ABFF9007360D0 /* JHChainableBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChainableBlocks.h; sourceTree = "<group>"; };
+		DAF6E0051C1ABFF9007360D0 /* JHKeyframeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHKeyframeAnimation.h; sourceTree = "<group>"; };
+		DAF6E0061C1ABFF9007360D0 /* JHKeyframeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHKeyframeAnimation.m; sourceTree = "<group>"; };
+		DAF6E0071C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		DAF6E0081C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		DAF6E0091C1ABFF9007360D0 /* UIView+JHChainableAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHChainableAnimations.h"; sourceTree = "<group>"; };
+		DAF6E00A1C1ABFF9007360D0 /* UIView+JHChainableAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHChainableAnimations.m"; sourceTree = "<group>"; };
+		DAF6E00F1C1AC054007360D0 /* TTTrickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTrickView.h; sourceTree = "<group>"; };
+		DAF6E0101C1AC054007360D0 /* TTTrickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTrickView.m; sourceTree = "<group>"; };
+		DAF6E0121C1AC334007360D0 /* sample.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample.js; sourceTree = "<group>"; };
+		DAF6E0151C1AC427007360D0 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF6DFDC1C1ABE84007360D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF6DFD61C1ABE84007360D0 = {
+			isa = PBXGroup;
+			children = (
+				DAF6DFF91C1ABE9F007360D0 /* TTTrick */,
+				DAF6DFE11C1ABE84007360D0 /* TTTrickDemo */,
+				DAF6DFE01C1ABE84007360D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF6DFE01C1ABE84007360D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6DFDF1C1ABE84007360D0 /* TTTrickDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF6DFE11C1ABE84007360D0 /* TTTrickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E0011C1ABF50007360D0 /* Scripts */,
+				DAF6DFE51C1ABE84007360D0 /* AppDelegate.h */,
+				DAF6DFE61C1ABE84007360D0 /* AppDelegate.m */,
+				DAF6DFE81C1ABE84007360D0 /* ViewController.h */,
+				DAF6DFE91C1ABE84007360D0 /* ViewController.m */,
+				DAF6DFEB1C1ABE84007360D0 /* Main.storyboard */,
+				DAF6DFEE1C1ABE84007360D0 /* Assets.xcassets */,
+				DAF6DFF01C1ABE84007360D0 /* LaunchScreen.storyboard */,
+				DAF6DFF31C1ABE84007360D0 /* Info.plist */,
+				DAF6DFE21C1ABE84007360D0 /* Supporting Files */,
+			);
+			path = TTTrickDemo;
+			sourceTree = "<group>";
+		};
+		DAF6DFE21C1ABE84007360D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6DFE31C1ABE84007360D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF6DFF91C1ABE9F007360D0 /* TTTrick */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E0141C1AC41C007360D0 /* Scripts */,
+				DAF6E00E1C1AC02D007360D0 /* Classes */,
+				DAF6DFFA1C1ABECF007360D0 /* Vendor */,
+			);
+			name = TTTrick;
+			path = ../TTTrick;
+			sourceTree = "<group>";
+		};
+		DAF6DFFA1C1ABECF007360D0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E0021C1ABFF9007360D0 /* JHChainableAnimations */,
+				DAF6DFFB1C1ABECF007360D0 /* JSPatch */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		DAF6DFFB1C1ABECF007360D0 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6DFFC1C1ABECF007360D0 /* JPEngine.h */,
+				DAF6DFFD1C1ABECF007360D0 /* JPEngine.m */,
+				DAF6DFFE1C1ABECF007360D0 /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		DAF6E0011C1ABF50007360D0 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E0121C1AC334007360D0 /* sample.js */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		DAF6E0021C1ABFF9007360D0 /* JHChainableAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E0031C1ABFF9007360D0 /* JHChainableAnimations.h */,
+				DAF6E0041C1ABFF9007360D0 /* JHChainableBlocks.h */,
+				DAF6E0051C1ABFF9007360D0 /* JHKeyframeAnimation.h */,
+				DAF6E0061C1ABFF9007360D0 /* JHKeyframeAnimation.m */,
+				DAF6E0071C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.c */,
+				DAF6E0081C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.h */,
+				DAF6E0091C1ABFF9007360D0 /* UIView+JHChainableAnimations.h */,
+				DAF6E00A1C1ABFF9007360D0 /* UIView+JHChainableAnimations.m */,
+			);
+			path = JHChainableAnimations;
+			sourceTree = "<group>";
+		};
+		DAF6E00E1C1AC02D007360D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E00F1C1AC054007360D0 /* TTTrickView.h */,
+				DAF6E0101C1AC054007360D0 /* TTTrickView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DAF6E0141C1AC41C007360D0 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6E0151C1AC427007360D0 /* main.js */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF6DFDE1C1ABE84007360D0 /* TTTrickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF6DFF61C1ABE84007360D0 /* Build configuration list for PBXNativeTarget "TTTrickDemo" */;
+			buildPhases = (
+				DAF6DFDB1C1ABE84007360D0 /* Sources */,
+				DAF6DFDC1C1ABE84007360D0 /* Frameworks */,
+				DAF6DFDD1C1ABE84007360D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTrickDemo;
+			productName = TTTrickDemo;
+			productReference = DAF6DFDF1C1ABE84007360D0 /* TTTrickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF6DFD71C1ABE84007360D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tsepingkai;
+				TargetAttributes = {
+					DAF6DFDE1C1ABE84007360D0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DAF6DFDA1C1ABE84007360D0 /* Build configuration list for PBXProject "TTTrickDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF6DFD61C1ABE84007360D0;
+			productRefGroup = DAF6DFE01C1ABE84007360D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF6DFDE1C1ABE84007360D0 /* TTTrickDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF6DFDD1C1ABE84007360D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF6DFF21C1ABE84007360D0 /* LaunchScreen.storyboard in Resources */,
+				DAF6DFEF1C1ABE84007360D0 /* Assets.xcassets in Resources */,
+				DAF6E0001C1ABECF007360D0 /* JSPatch.js in Resources */,
+				DAF6E0161C1AC427007360D0 /* main.js in Resources */,
+				DAF6DFED1C1ABE84007360D0 /* Main.storyboard in Resources */,
+				DAF6E0131C1AC334007360D0 /* sample.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF6DFDB1C1ABE84007360D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF6E0111C1AC054007360D0 /* TTTrickView.m in Sources */,
+				DAF6E00D1C1ABFF9007360D0 /* UIView+JHChainableAnimations.m in Sources */,
+				DAF6DFEA1C1ABE84007360D0 /* ViewController.m in Sources */,
+				DAF6E00B1C1ABFF9007360D0 /* JHKeyframeAnimation.m in Sources */,
+				DAF6E00C1C1ABFF9007360D0 /* NSBKeyframeAnimationFunctions.c in Sources */,
+				DAF6DFFF1C1ABECF007360D0 /* JPEngine.m in Sources */,
+				DAF6DFE71C1ABE84007360D0 /* AppDelegate.m in Sources */,
+				DAF6DFE41C1ABE84007360D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAF6DFEB1C1ABE84007360D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF6DFEC1C1ABE84007360D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF6DFF01C1ABE84007360D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF6DFF11C1ABE84007360D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF6DFF41C1ABE84007360D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAF6DFF51C1ABE84007360D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF6DFF71C1ABE84007360D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../TTTrick\"/**";
+				INFOPLIST_FILE = TTTrickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsepingkai.TTTrickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF6DFF81C1ABE84007360D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../TTTrick\"/**";
+				INFOPLIST_FILE = TTTrickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsepingkai.TTTrickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF6DFDA1C1ABE84007360D0 /* Build configuration list for PBXProject "TTTrickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF6DFF41C1ABE84007360D0 /* Debug */,
+				DAF6DFF51C1ABE84007360D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF6DFF61C1ABE84007360D0 /* Build configuration list for PBXNativeTarget "TTTrickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF6DFF71C1ABE84007360D0 /* Debug */,
+				DAF6DFF81C1ABE84007360D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF6DFD71C1ABE84007360D0 /* Project object */;
+}
