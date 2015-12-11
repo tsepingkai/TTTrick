@@ -10,6 +10,7 @@ defineClass('TTTrickView', {
 //            var height = arc4random() % (self.getHeight() / 2);
 //
             
+            
             animationView.loadView();
             self.addSubview(animationView);
             animationView.start(300);
